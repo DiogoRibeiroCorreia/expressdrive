@@ -1,0 +1,16 @@
+
+/*------------------- Carrousel Página Inicial ----------------------------*/
+.carrouselbtn{
+    background-color: #E05414 !important;
+    border-color: #E05414 !important;
+}
+
+.carrouselbtn:hover{
+    background-color: #f57f49 !important;
+    border-color: #f57f49 !important;
+}
+.carrouselbtn:active{
+    background-color: #f57f49 !important;
+    border-color: #f57f49 !important;
+    
+}
