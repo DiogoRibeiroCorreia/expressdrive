@@ -1,3 +1,28 @@
+body{
+    background-color: #eeeeee;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+   
+}
+
+footer{
+    background-color: white;
+}
+
+
+.navbar{
+    background-color: white  !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+/*------------------- Central dentro de um container ----------------------------*/
+
+.centralizar_content{
+    display: flex;
+    align-items: center;
+}
 
 /*------------------- Carrousel Página Inicial ----------------------------*/
 .carrouselbtn{
