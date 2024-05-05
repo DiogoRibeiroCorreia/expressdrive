@@ -8,15 +8,52 @@ footer{
     background-color: white;
 }
 
+/*------------------- NavBar ----------------------------*/
 
 .navbar{
     background-color: white  !important;
+}
+
+.nav-link:hover{
+color: #E05414 !important;
 }
 
 a{
     text-decoration: none !important;
 }
 
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+
+
+
+.btnmodel{
+    background-color: #E05414;
+    color: white;
+    border-color: #E05414;
+}
+
+.btnmodel:hover{
+    background-color: #e46b33;
+    color: white;
+    border-color: #e46b33;
+}
+
+
+  .sobrenos{
+    text-align: justify;
+    text-justify: inter-word; /* Melhora o espaçamento entre palavras */
+  }
+
+  hr{
+    border: solid;            /* Remove a borda padrão */
+    height: 5%;             /* Define a altura da linha, ajuste conforme necessário para a espessura desejada */
+    border-color: #c94d13; /* Define a cor da linha usando a cor do fundo */
+    width: 100%;             /* Mantém a linha com a largura total */
+    box-sizing: border-box; 
+  }
 /*------------------- Central dentro de um container ----------------------------*/
 
 .centralizar_content{
@@ -38,4 +75,23 @@ a{
     background-color: #f57f49 !important;
     border-color: #f57f49 !important;
     
+}
+
+
+
+
+
+
+
+/* Media query para dispositivos móveis */
+@media (max-width: 767px) {
+    .masthead {
+        height: 90vh;  
+        max-height: 200px;  /* Altura máxima menor para dispositivos móveis */
+    }
+
+    .navbar-nav .nav-link{
+        text-align: right !important;  /* Alinha o texto à direita dentro de cada .nav-item */
+        padding-right: 5%;
+    }
 }
