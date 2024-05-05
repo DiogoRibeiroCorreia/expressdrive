@@ -1,97 +1,214 @@
-body{
+body {
     background-color: #eeeeee;
     font-family: 'Plus Jakarta Sans', sans-serif;
-   
+
 }
 
-footer{
+footer {
     background-color: white;
+}
+
+.full-screen-image {
+    background-image: url(../img/Login.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
 }
 
 /*------------------- NavBar ----------------------------*/
 
-.navbar{
-    background-color: white  !important;
+.navbar {
+    background-color: white !important;
 }
 
-.nav-link:hover{
-color: #E05414 !important;
+.nav-link {
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: black;
 }
 
-a{
+.nav-link a:active {
+    background-color: black;
+}
+
+.nav {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: #E05414;
+    --bs-nav-link-hover-color: #E05414;
+    --bs-nav-link-disabled-color: var(--bs-secondary-color);
+}
+
+.nav-link.active {
+    border-radius: 20px;
+    background-color: #E05414 !important;
+    color: white;
+}
+
+.nav-link.active:hover {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #E05414 !important;
+}
+
+a {
     text-decoration: none !important;
 }
 
 .responsive {
     width: 100%;
     height: auto;
-  }
+}
 
-
-
-.btnmodel{
+.btnmodel {
     background-color: #E05414;
     color: white;
     border-color: #E05414;
 }
 
-.btnmodel:hover{
+.btnmodel:hover {
     background-color: #e46b33;
     color: white;
     border-color: #e46b33;
 }
 
-
-  .sobrenos{
+.sobrenos {
     text-align: justify;
-    text-justify: inter-word; /* Melhora o espaçamento entre palavras */
-  }
+    text-justify: inter-word;
+    /* Melhora o espaçamento entre palavras */
+}
 
-  hr{
-    border: solid;            /* Remove a borda padrão */
-    height: 5%;             /* Define a altura da linha, ajuste conforme necessário para a espessura desejada */
-    border-color: #c94d13; /* Define a cor da linha usando a cor do fundo */
-    width: 100%;             /* Mantém a linha com a largura total */
-    box-sizing: border-box; 
-  }
+.TextoPolitica {
+    text-align: justify;
+    /* Justifica o texto */
+    font-size: 16px;
+    /* Define o tamanho da fonte */
+    line-height: 1.6;
+    /* Define o espaçamento entre linhas */
+    color: #333;
+    /* Define a cor do texto */
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    /* Define a família da fonte */
+    margin-bottom: 20px;
+    /* Espaço após o parágrafo */
+}
+
+.TextoPolitica b {
+    font-weight: bold;
+    /* Torna o texto em negrito mais forte */
+}
+
+/* Estilo opcional para melhorar a separação visual dos sub-títulos */
+.TextoPolitica b {
+    display: block;
+    /* Torna cada título de seção em um bloco */
+    margin-top: 30px;
+    /* Espaço antes de cada título de seção */
+    margin-bottom: 10px;
+    /* Espaço após cada título de seção */
+}
+
+.TextoTermos {
+    text-align: justify;
+    /* Justifica o texto */
+    font-size: 16px;
+    /* Define o tamanho da fonte */
+    line-height: 1.6;
+    /* Define o espaçamento entre linhas */
+    color: #333;
+    /* Define a cor do texto */
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    /* Define a família da fonte */
+    margin-bottom: 20px;
+    /* Espaço após o parágrafo */
+}
+
+.TextoTermos b {
+    font-weight: bold;
+    /* Torna o texto em negrito mais forte */
+}
+
+/* Estilo opcional para melhorar a separação visual dos sub-títulos */
+.TextoTermos b {
+    display: block;
+    /* Torna cada título de seção em um bloco */
+    margin-top: 20px;
+    /* Espaço antes de cada título de seção */
+    margin-bottom: 5px;
+    /* Espaço após cada título de seção */
+}
+
+hr {
+    border: solid;
+    /* Remove a borda padrão */
+    height: 5%;
+    /* Define a altura da linha, ajuste conforme necessário para a espessura desejada */
+    border-color: #c94d13;
+    /* Define a cor da linha usando a cor do fundo */
+    width: 100%;
+    /* Mantém a linha com a largura total */
+    box-sizing: border-box;
+}
+
 /*------------------- Central dentro de um container ----------------------------*/
 
-.centralizar_content{
+.centralizar_content {
     display: flex;
     align-items: center;
 }
 
 /*------------------- Carrousel Página Inicial ----------------------------*/
-.carrouselbtn{
+.carrouselbtn {
     background-color: #E05414 !important;
     border-color: #E05414 !important;
 }
 
-.carrouselbtn:hover{
+.carrouselbtn:hover {
     background-color: #f57f49 !important;
     border-color: #f57f49 !important;
 }
-.carrouselbtn:active{
+
+.carrouselbtn:active {
     background-color: #f57f49 !important;
     border-color: #f57f49 !important;
-    
+
 }
 
-
-
-
-
+.btn_login {
+    background-color: #f57f49 !important;
+    border-color: #f57f49 !important;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
 
 
 /* Media query para dispositivos móveis */
 @media (max-width: 767px) {
     .masthead {
-        height: 90vh;  
-        max-height: 200px;  /* Altura máxima menor para dispositivos móveis */
+        height: 90vh;
+        max-height: 200px;
+        /* Altura máxima menor para dispositivos móveis */
     }
 
-    .navbar-nav .nav-link{
-        text-align: right !important;  /* Alinha o texto à direita dentro de cada .nav-item */
+    .navbar-nav .nav-link {
+        text-align: right !important;
+        /* Alinha o texto à direita dentro de cada .nav-item */
         padding-right: 5%;
     }
 }
