@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+    
+    <title>ExpressDrive</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap" rel="stylesheet">
+   
+
+    <style>.icon-hover:hover {
+      border-color: #3b71ca !important;
+      background-color: white !important;
+      color: #3b71ca !important;
+    }
+    
+    .icon-hover:hover i {
+      color: #3b71ca !important;
+    }
+    
+    .img-sm {
+    width: 46px;
+    height: 46px;
+}
+
+.panel {
+    box-shadow: 0 2px 0 rgba(0,0,0,0.075);
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 15px;
+}
+
+.panel .panel-footer, .panel>:last-child {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.panel .panel-heading, .panel>:first-child {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.panel-body {
+    padding: 25px 20px;
+}
+
+
+.media-block .media-left {
+    display: block;
+    float: left
+}
+
+.media-block .media-right {
+    float: right
+}
+
+.media-block .media-body {
+    display: block;
+    overflow: hidden;
+    width: auto
+}
+
+.middle .media-left,
+.middle .media-right,
+.middle .media-body {
+    vertical-align: middle
+}
+
+.thumbnail {
+    border-radius: 0;
+    border-color: #e9e9e9
+}
+
+.tag.tag-sm, .btn-group-sm>.tag {
+    padding: 5px 10px;
+}
+
+.tag:not(.label) {
+    background-color: #fff;
+    padding: 6px 12px;
+    border-radius: 2px;
+    border: 1px solid #cdd6e1;
+    font-size: 12px;
+    line-height: 1.42857;
+    vertical-align: middle;
+    -webkit-transition: all .15s;
+    transition: all .15s;
+}
+.text-muted, a.text-muted:hover, a.text-muted:focus {
+    color: #acacac;
+}
+.text-sm {
+    font-size: 0.9em;
+}
+.text-5x, .text-4x, .text-5x, .text-2x, .text-lg, .text-sm, .text-xs {
+    line-height: 1.25;
+}
+
+.btn-trans {
+    background-color: transparent;
+    border-color: transparent;
+    color: #929292;
+}
+
+.btn-icon {
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+.btn-sm, .btn-group-sm>.btn, .btn-icon.btn-sm {
+    padding: 5px 10px !important;
+}
+
+.mar-top {
+    margin-top: 15px;
+}
+    </style>
+
+<link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body>
+    <div id="header-placeholder"></div>
+
+<br><br><br>
+
+
+<!-- content -->
+<section class="py-5">
+  <div class="container">
+    <div class="row gx-5">
+      <aside class="col-lg-6">
+        <div class="border rounded-4 mb-3 d-flex justify-content-center">
+          <a data-fslightbox="mygalley" class="rounded-4" target="_blank" data-type="image" href="img/fiat_detalhe_1.png">
+            <img style="max-width: 100%; max-height: 100vh; margin: auto;" class="rounded-4 fit" src="img/fiat_detalhe_1.png" />
+          </a>
+        </div>
+        <div class="d-flex justify-content-center mb-3">
+          <a data-fslightbox="mygalley" class="border mx-1 rounded-2" target="_blank" data-type="image" href="img/fiat_detalhe_1.png" class="item-thumb">
+            <img width="60" height="60" class="rounded-2" src="img/fiat_detalhe_1.png" />
+          </a>
+          <a data-fslightbox="mygalley" class="border mx-1 rounded-2" target="_blank" data-type="image" href="img/fiat2.jpeg" class="item-thumb">
+            <img width="60" height="60" class="rounded-2" src="img/fiat2.jpeg" />
+          </a>
+          <a data-fslightbox="mygalley" class="border mx-1 rounded-2" target="_blank" data-type="image" href="img/fiat3.jpeg" class="item-thumb">
+            <img width="60" height="60" class="rounded-2" src="img/fiat3.jpeg" />
+          </a>
+          <a data-fslightbox="mygalley" class="border mx-1 rounded-2" target="_blank" data-type="image" href="img/icon.png" class="item-thumb">
+            <img width="60" height="60" class="rounded-2" src="img/icon.png" />
+          </a>
+          <a data-fslightbox="mygalley" class="border mx-1 rounded-2" target="_blank" data-type="image" href="img/fiat1.jpeg" class="item-thumb">
+            <img width="60" height="60" class="rounded-2" src="img/fiat1.jpeg" />
+          </a>
+        </div>
+        <!-- thumbs-wrap.// -->
+        <!-- gallery-wrap .end// -->
+      </aside>
+      <main class="col-lg-6" style="background-color: white; border-radius: 3%;">
+        <div class="ps-lg-3">
+          <h4 class="title text-dark" style="padding-top: 3%;">
+            <strong>Fiat Linea</strong> <img src="img/icon.png" alt="Nature" class="responsive" width="10%" height="400" style="max-width: 6%;">
+            <br />
+            
+          </h4>
+          <div class="d-flex flex-row my-3">
+            <div class="text-warning mb-1 me-2">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span class="ms-1">
+                4.5
+              </span>
+            </div>
+            <span class="text-muted"><i class="fas fa-shopping-basket fa-sm mx-1"></i>+ 440 Comentários</span>
+            
+          </div>
+
+        
+
+          <p>
+            Este modelo italiano tornou-se a referência da marca, apresentando um acabamento incrível e um toque chique que traz conforto para a sua família
+          </p>
+
+          <div class="row">
+            <dd class="col-3" style="color: #90A3BF;">Tipo Carro:</dd>
+            <dd class="col-3">Multijet 3.0</dd>
+
+            <dd class="col-3" style="color: #90A3BF;">Capacidade</dt>
+            <dd class="col-3">5 Pessoas</dd>
+
+            <dd class="col-3" style="color: #90A3BF;">Mudanças</dd>
+            <dd class="col-3">Manual</dd>
+
+            <dd class="col-3" style="color: #90A3BF;">Gasóleo</dd>
+            <dd class="col-3">90L</dd>
+          </div>
+
+          <hr/>
+
+          
+          <div class="mb-3">
+            <span class="h5"><strong>90€</strong></span>
+            <span class="text-muted"> / Dia</span>
+            <a href="pagamento.html" class="btn btn-primary  float-right" style="text-align: right !important; background-color: #E05414; border-color: #E05414;" > Alugar Agora</a>
+
+          </div>
+
+ </div>
+      </main>
+    </div>
+  </div>
+</section>
+<!-- content -->
+
+
+<div class="container">
+  <div class="row">
+    
+    <div class="col-12">
+      <section class="bg-light border-top py-4">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+      <div class="container bootdey">
+      <div class="col-md-12 bootstrap snippets">
+      <div class="panel">
+        <div class="panel-body">
+          <textarea class="form-control" rows="2" placeholder="Escreva um Comentário!"></textarea>
+          <div class="mar-top clearfix">
+            <button class="btn btn-sm btn-primary pull-right" type="submit" style="background-color: #E05414; border-color: #E05414;"><i class="fa fa-pencil fa-fw"></i> Submeter</button>
+            <a class="btn btn-trans btn-icon fa fa-video-camera add-tooltip" href="#"></a>
+            <a class="btn btn-trans btn-icon fa fa-camera add-tooltip" href="#"></a>
+            <a class="btn btn-trans btn-icon fa fa-file add-tooltip" href="#"></a>
+          </div>
+        </div>
+      </div>
+      <div class="panel">
+          <div class="panel-body">
+          <!-- Newsfeed Content -->
+          <!--===================================================-->
+          <div class="media-block">
+            <a class="media-left" href="#"><img class="img-circle img-sm" alt="Profile Picture" src="img/foto_fabio.jpg"></a>
+            <div class="media-body">
+              <div class="mar-btm">
+                <a href="#" class="btn-link text-semibold media-heading box-inline" style="margin-left: 0.5%;">Fábio Simões</a>
+                <p class="text-muted text-sm"><i class="fa fa-mobile fa-lg" style="margin-left: 0.5%;"></i> - Do Telemóvel - 11 min ago</p>
+              </div>
+              <p> Sinto que o desempenho poderia ser melhorado. Em autoestradas, noto que o carro demora um pouco mais para alcançar velocidades mais altas, e a aceleração não é tão rápida quanto eu esperava.</p>
+              <div class="pad-ver">
+                <div class="btn-group">
+                  <a class="btn btn-sm btn-default btn-hover-success" href="#"><i class="fa fa-thumbs-up"></i></a>
+                  <a class="btn btn-sm btn-default btn-hover-danger" href="#"><i class="fa fa-thumbs-down"></i></a>
+                </div>
+                <a class="btn btn-sm btn-default btn-hover-primary" href="#">Comentar</a>
+              </div>
+              <hr>
+      
+              <!-- Comments -->
+              <div>
+                <div class="media-block">
+                  <a class="media-left" href="#"><img class="img-circle img-sm" alt="Profile Picture" src="img/foto_diogo.jpg"></a>
+                  <div class="media-body">
+                    <div class="mar-btm">
+                      <a href="#" class="btn-link text-semibold media-heading box-inline" style="margin-left: 0.5%;">Diogo Correia</a>
+                      <p class="text-muted text-sm"><i class="fa fa-mobile fa-lg" style="margin-left: 0.5%;"></i> - Do Telemóvel - 7 min ago</p>
+                    </div>
+                    <p>Trata-se de um carro mais familiar, o conceito é ser confortavel!</p>
+                    <div class="pad-ver">
+                      <div class="btn-group">
+                        <a class="btn btn-sm btn-default btn-hover-success active" href="#"><i class="fa fa-thumbs-up"></i></a>
+                        <a class="btn btn-sm btn-default btn-hover-danger" href="#"><i class="fa fa-thumbs-down"></i></a>
+                      </div>
+                      <a class="btn btn-sm btn-default btn-hover-primary" href="#">Comentar</a>
+                    </div>
+                    <hr>
+                  </div>
+                </div>
+      
+              
+              </div>
+            </div>
+          </div>
+          <!--===================================================-->
+          <!-- End Newsfeed Content -->
+      
+      
+          <!-- Newsfeed Content -->
+          <!--===================================================-->
+          <div class="media-block pad-all">
+            <a class="media-left" href="#"><img class="img-circle img-sm" alt="Profile Picture" src="img/foto_diogo.jpg"></a>
+            <div class="media-body">
+              <div class="mar-btm">
+                <a href="#" class="btn-link text-semibold media-heading box-inline" style="margin-left: 0.5%;">Diogo Correia</a>
+                <p class="text-muted text-sm"><i class="fa fa-mobile fa-lg" style="margin-left: 0.5%;"></i> - Telemóvel - 11 min ago</p>
+              </div>
+              <p>Recentemente, adquiri um Fiat Linea Multijet e tenho que dizer que estou bastante satisfeito com a minha escolha. Uma das coisas que mais me impressiona é a eficiência de combustível deste carro. Fazer muitos quilómetros sem me preocupar constantemente em reabastecer é uma grande vantagem.</p>
+              <img class="img-responsive thumbnail" src="img/fiat1.jpeg" alt="Image" style="max-width: 22%;">
+              <div class="pad-ver">
+                <span class="tag tag-sm"><i class="fa fa-heart text-danger"></i> 250 Likes</span>
+                <div class="btn-group">
+                  <a class="btn btn-sm btn-default btn-hover-success" href="#"><i class="fa fa-thumbs-up"></i></a>
+                  <a class="btn btn-sm btn-default btn-hover-danger" href="#"><i class="fa fa-thumbs-down"></i></a>
+                </div>
+                <a class="btn btn-sm btn-default btn-hover-primary" href="#">Comentar</a>
+              </div>
+              <hr>
+      
+              <!-- Comments -->
+              <div>
+                <div class="media-block pad-all">
+                  <a class="media-left" href="#"><img class="img-circle img-sm" alt="Profile Picture" src="img/foto_fabio.jpg"></a>
+                  <div class="media-body">
+                    <div class="mar-btm">
+                      <a href="#" class="btn-link text-semibold media-heading box-inline" style="margin-left: 0.5%;">Fábio Simões</a>
+                      <p class="text-muted text-sm"><i class="fa fa-globe fa-lg" style="margin-left: 0.5%;"></i> - Pela Web - 2 min ago</p>
+                    </div>
+                    <p>Experimenta o Fiat Tipo vais adorar!</p>
+                    <div>
+                      <div class="btn-group">
+                        <a class="btn btn-sm btn-default btn-hover-success" href="#"><i class="fa fa-thumbs-up"></i></a>
+                        <a class="btn btn-sm btn-default btn-hover-danger" href="#"><i class="fa fa-thumbs-down"></i></a>
+                      </div>
+                      <a class="btn btn-sm btn-default btn-hover-primary" href="#">Comentar</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--===================================================-->
+          <!-- End Newsfeed Content -->
+        </div>
+      </div>
+      </div>
+      </div>
+      </section>
+    </div>
+  
+
+
+   
+
+
+    
+  </div>
+ 
+</div>
+
+
+<div class="container" style="margin-top: 3%;">
+  <div class="row">
+
+    <div class="col-6">
+      <h3 class="mb-3">Mais Populares</h3>
+      
+  </div>
+  <div class="col-12">
+    <div class="row" style="justify-content: left;">
+      <div class="col-3 d-flex justify-content-center align-items-center"  style=" padding: 1%; ">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="img/fiat_card.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">90€ / Dia</h5>                  
+                <a href="#" class="btn btn-primary  justify-content-end" style="text-align: right; background-color: #E05414; border-color: #E05414;" > Alugar Agora</a>
+            
+              </div>
+            </div>           
+          </div>
+
+
+            <div class="col-3 d-flex justify-content-center align-items-center"  style=" padding: 1%; ">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/fiat_card.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">90€ / Dia</h5>
+                  
+                  <a href="#" class="btn btn-primary  justify-content-end" style="text-align: right; background-color: #E05414; border-color: #E05414;" > Alugar Agora</a>
+              
+                </div>
+              </div>            
+          </div>
+
+
+        <div class="col-3 d-flex justify-content-center align-items-center"  style=" padding: 1%; ">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/fiat_card.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">90€ / Dia</h5>
+                  
+                  <a href="#" class="btn btn-primary  justify-content-end" style="text-align: right; background-color: #E05414; border-color: #E05414;" > Alugar Agora</a>
+              
+                </div>
+              </div>            
+          </div>
+    </div>
+
+</div>
+  </div></div>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    
+    -->
+    
+    <br><br><br>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+  </body>
+  <div id="footer-placeholder"></div>
+  <script>
+    // Carrega o menu
+    fetch('header.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('header-placeholder').innerHTML = data;
+      });
+
+    // Carrega o footer
+    fetch('footer.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('footer-placeholder').innerHTML = data;
+      });
+  </script>
+</html>
