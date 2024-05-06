@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+
+    <title>ExpressDrive</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div id="header-placeholder"></div>
+
+
+
+
+    <img src="img/politica.png" alt="Nature" class="responsive" width="100%" height="400">
+    <br><br><br>
+
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-12">
+                <div class="row" id="CampoPolitica">
+                    <p class="TextoPolitica">A ExpressDrive, doravante denominada "nós" ou "nosso", está empenhada em proteger a privacidade dos nossos clientes. Esta Política de Privacidade explica como recolhemos, usamos, divulgamos e protegemos as informações pessoais fornecidas por você durante a utilização dos nossos serviços de aluguer de carros e ao interagir com o nosso site, aplicativos e outros serviços relacionados.
+                        Ao utilizar os nossos serviços, você concorda com as práticas descritas nesta Política de Privacidade.
+
+                        <b>1. Informações Recolhidas:</b>
+                        1.1. Informações Pessoais: Podemos recolher informações pessoais, como nome, morada, número de telefone, endereço de e-mail, dados da carta de condução e informações de pagamento quando efetua uma reserva ou utiliza os nossos serviços.
+                        1.2. Informações de Utilização: Recolhemos informações sobre como você utiliza os nossos serviços, incluindo detalhes sobre os veículos alugados, trajetos realizados, localizações visitadas e interações com o nosso site ou aplicativos.
+                        1.3. Informações do Dispositivo: Podemos recolher informações do dispositivo que você utiliza para aceder aos nossos serviços, como tipo de dispositivo, sistema operacional, identificadores únicos e configurações do dispositivo.
+
+                        <b>2. Uso das Informações:</b>
+                        2.1. Prestação de Serviços: Utilizamos as informações recolhidas para fornecer os nossos serviços, processar reservas, facilitar pagamentos, e oferecer suporte ao cliente.
+                        2.2. Melhoria dos Serviços: Analisamos as informações para melhorar a qualidade dos nossos serviços, personalizar a experiência do utilizador e desenvolver novos recursos.
+                        2.3. Comunicações: Podemos utilizar as informações para enviar comunicações relacionadas com as reservas, atualizações de serviços, ofertas especiais e newsletters, com a opção de cancelamento de subscrição disponível.
+
+                        <b>3. Partilha de Informações:</b>
+                        3.1. Parceiros e Fornecedores: Podemos partilhar informações com parceiros e fornecedores para cumprir as suas reservas e melhorar os nossos serviços.
+                        3.2. Cumprimento da Lei: Reservamo-nos o direito de divulgar informações conforme exigido por lei ou quando acreditamos de boa-fé que a divulgação é necessária para proteger os nossos direitos, garantir a segurança dos utilizadores ou cumprir com uma ordem judicial.
+
+                        <b>4. Segurança:</b>
+                        Implementamos medidas de segurança para proteger as suas informações contra acesso não autorizado, alteração, divulgação ou destruição não autorizada.
+
+                        <b>5. Direitos do Utilizador:</b>
+                        Você tem o direito de aceder, corrigir ou apagar as suas informações pessoais. Para exercer esses direitos ou caso tenha dúvidas sobre a nossa Política de Privacidade, entre em contacto connosco através dos meios disponibilizados no nosso site.
+
+                        <b>6. Alterações na Política de Privacidade:</b>
+                        Esta Política de Privacidade pode ser atualizada periodicamente. A versão mais recente estará sempre disponível no nosso site, indicando a data da última atualização.
+                        Ao continuar a utilizar os nossos serviços após alterações nesta Política de Privacidade, você aceita as modificações efetuadas.
+                        Obrigado por escolher a ExpressDrive. Estamos comprometidos em proporcionar uma experiência segura e confiável aos nossos clientes.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+
+</body>
+
+
+<div id="footer-placeholder"></div>
+<script>
+    // Carrega o menu
+    fetch('header.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('header-placeholder').innerHTML = data;
+        });
+
+    // Carrega o footer
+    fetch('footer.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('footer-placeholder').innerHTML = data;
+        });
+</script></html>
